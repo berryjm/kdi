@@ -65,9 +65,52 @@
     <Compile Include="Assets/LandscapeLockScript.cs" />
     <Compile Include="Assets/HSAssets/MoveUpward.cs" />
     <Compile Include="Assets/QuizScript.cs" />
+    <Compile Include="Assets/PanelScripts/PanelOpener.cs" />
+    <Compile Include="Assets/PanelScripts/PanelCloser.cs" />
+    <Compile Include="Assets/CheckboxData.cs" />
+    <Compile Include="Assets/Checkbox.cs" />
+    <Compile Include="Assets/QuizScene.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Resources/Quiz/2/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/4/kun4.txt" />
+    <None Include="Assets/Resources/Quiz/6/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/7/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/7/english.txt" />
+    <None Include="Assets/Resources/Quiz/1/kun1.txt" />
+    <None Include="Assets/Resources/Quiz/7/kun7.txt" />
+    <None Include="Assets/Resources/Quiz/3/kun3.txt" />
+    <None Include="Assets/Resources/Quiz/6/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/2/on2.txt" />
+    <None Include="Assets/Resources/Quiz/1/english.txt" />
+    <None Include="Assets/Resources/Quiz/4/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/5/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/5/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/8/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/7/on7.txt" />
+    <None Include="Assets/Resources/Quiz/4/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/3/on3.txt" />
+    <None Include="Assets/Resources/Quiz/6/english.txt" />
+    <None Include="Assets/Resources/Quiz/7/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/2/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/6/kun6.txt" />
+    <None Include="Assets/Resources/Quiz/5/english.txt" />
+    <None Include="Assets/Resources/Quiz/1/on1.txt" />
+    <None Include="Assets/Resources/Quiz/2/english.txt" />
+    <None Include="Assets/Resources/Quiz/8/kanji.txt" />
     <None Include="Assets/Fonts/Poppins/OFL.txt" />
+    <None Include="Assets/Resources/Quiz/3/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/5/kun5.txt" />
+    <None Include="Assets/Resources/Quiz/1/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/5/on5.txt" />
+    <None Include="Assets/Resources/Quiz/3/english.txt" />
+    <None Include="Assets/Resources/Quiz/3/kanji.txt" />
+    <None Include="Assets/Resources/Quiz/4/on4.txt" />
+    <None Include="Assets/Resources/Quiz/2/kun2.txt" />
+    <None Include="Assets/Resources/Quiz/1/kunon.txt" />
+    <None Include="Assets/Resources/Quiz/8/english.txt" />
+    <None Include="Assets/Resources/Quiz/6/on6.txt" />
+    <None Include="Assets/Resources/Quiz/4/english.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

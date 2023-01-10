@@ -596,6 +596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200643108}
   - component: {fileID: 1200643109}
+  - component: {fileID: 1200643110}
   m_Layer: 0
   m_Name: Quiz
   m_TagString: Untagged
@@ -624,7 +625,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200643107}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a71f61496721349f1b5823534cb36e97, type: 3}
   m_Name: 
@@ -635,6 +636,19 @@ MonoBehaviour:
   - {fileID: 1566709604}
   - {fileID: 2070865364}
   - {fileID: 109403000}
+--- !u!114 &1200643110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200643107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c067ca88ed44072b4b6ff784935237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkboxData: {fileID: 11400000, guid: 06f4f291c05e6498798c54efcfcc7f15, type: 2}
 --- !u!1 &1280090369
 GameObject:
   m_ObjectHideFlags: 0
