@@ -1,0 +1,296 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/miahome/kanji
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64544
+Successfully changed project path to: /Users/miahome/kanji
+/Users/miahome/kanji
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/miahome/kanji/Assets
+GfxDevice: creating device client; threaded=0
+2023-01-10 05:51:40.610 Unity[40436:7220945] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2023-01-10 05:51:40.610 Unity[40436:7220945] Metal devices available: 2
+2023-01-10 05:51:40.610 Unity[40436:7220945] 0: AMD Radeon Pro 5300M (high power)
+2023-01-10 05:51:40.610 Unity[40436:7220945] 1: Intel(R) UHD Graphics 630 (low power)
+2023-01-10 05:51:40.610 Unity[40436:7220945] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003300 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1368ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000960 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.001123 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+2023-01-10 05:51:44.399 Unity[40436:7220945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb97c9c3e20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2023-01-10 05:51:44.403 Unity[40436:7220945] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb97cf4eae0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2309 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 215.4 MB.
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 2775.
+Total: 4.051881 ms (FindLiveObjects: 0.196203 ms CreateObjectMapping: 0.130924 ms MarkObjects: 3.233773 ms  DeleteObjects: 0.490393 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Fonts/Poppins/Poppins-ThinItalic.ttf
+  artifactKey: Guid(d7d1a73184eee486689b6c369eb9c256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-ThinItalic.ttf using Guid(d7d1a73184eee486689b6c369eb9c256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fe4bafb98ef99b06f064ca648cdc59') in 1.566594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Black.ttf
+  artifactKey: Guid(277b3a975e53e4ef0b6c426fa258db49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Black.ttf using Guid(277b3a975e53e4ef0b6c426fa258db49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab06d9a9078acced2c1ded915bf13750') in 0.018045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Regular.ttf
+  artifactKey: Guid(f8c1c744601fd4877a8e24bfe696bfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Regular.ttf using Guid(f8c1c744601fd4877a8e24bfe696bfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60c07096b5a6d7d052b8ad75eb41758') in 0.015133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Fonts/Poppins/Poppins-SemiBoldItalic.ttf
+  artifactKey: Guid(b997c8ef82e06439c813001aa658ea5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-SemiBoldItalic.ttf using Guid(b997c8ef82e06439c813001aa658ea5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a9e4b21e078a680cf0900fdfadaab6') in 0.013709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Thin.ttf
+  artifactKey: Guid(a92b37a31da1b4f7ea09e73fcde296b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Thin.ttf using Guid(a92b37a31da1b4f7ea09e73fcde296b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825b99e59bedf524a5d53cf5a3409cc5') in 0.012342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Fonts/Poppins/Poppins-BoldItalic.ttf
+  artifactKey: Guid(ec05c5360f27c492cb9c44d63e7992ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-BoldItalic.ttf using Guid(ec05c5360f27c492cb9c44d63e7992ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fffdbc31e8f89b8d28ddf092de1344') in 0.012022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Light.ttf
+  artifactKey: Guid(df69972f435914c0eaf3a88d404e9d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Light.ttf using Guid(df69972f435914c0eaf3a88d404e9d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11af4b3880b1792d4ab654773a775154') in 0.015238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Fonts/Poppins/Poppins-SemiBold.ttf
+  artifactKey: Guid(1f14dd888aec9452480b39d4a58b2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-SemiBold.ttf using Guid(1f14dd888aec9452480b39d4a58b2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955b6ac29be15c680ec1268d66aed81f') in 0.012440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Fonts/Poppins
+  artifactKey: Guid(256c45dcc4bff49d280881329c692b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins using Guid(256c45dcc4bff49d280881329c692b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe41a4fe3f674bd09c389a11a11b784') in 0.000839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Fonts/Poppins/Poppins-ExtraLight.ttf
+  artifactKey: Guid(013842afe2cb746c09f810ca894fe26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-ExtraLight.ttf using Guid(013842afe2cb746c09f810ca894fe26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5789149b478ab5b32c8d4d1ecbf9d3') in 0.013685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Fonts/Poppins/Poppins-ExtraBold.ttf
+  artifactKey: Guid(2c429866f62d24b0bbee8e08ab970158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-ExtraBold.ttf using Guid(2c429866f62d24b0bbee8e08ab970158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e39946f63b8ca1d8b9cc236fd7e445') in 0.015424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Fonts/Poppins/Poppins-LightItalic.ttf
+  artifactKey: Guid(9f3380c85e51641c195d352fd08fd6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-LightItalic.ttf using Guid(9f3380c85e51641c195d352fd08fd6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62b8ef21704d70350a4e90e82d0c443') in 0.013195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Fonts/Poppins/Poppins-BlackItalic.ttf
+  artifactKey: Guid(d911c73dee73542c5b12a1c3eaa28c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-BlackItalic.ttf using Guid(d911c73dee73542c5b12a1c3eaa28c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cae2382fa0a6c4e9d62f54e2eada0f3') in 0.013081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Fonts/Poppins/Poppins-MediumItalic.ttf
+  artifactKey: Guid(b434def72cae046c0b5822651c6172a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-MediumItalic.ttf using Guid(b434def72cae046c0b5822651c6172a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465d6d0098dc6a3fdce374ede6e8b219') in 0.012118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Bold.ttf
+  artifactKey: Guid(f3e4241788c49472b80f4e3a2176c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Bold.ttf using Guid(f3e4241788c49472b80f4e3a2176c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500b42555b4a2a8e2a30bc5616d9c57e') in 0.014411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Italic.ttf
+  artifactKey: Guid(1c7bb1360c8c1434395d961f69fa5126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Italic.ttf using Guid(1c7bb1360c8c1434395d961f69fa5126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7783a1673f424a77bacd0ac3418e1a8') in 0.017619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Fonts/Poppins/Poppins-ExtraLightItalic.ttf
+  artifactKey: Guid(a47f17be8f1af4539a438a201ded3575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-ExtraLightItalic.ttf using Guid(a47f17be8f1af4539a438a201ded3575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c63653346122c9fa9dfb4570a76ea8') in 0.013123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Fonts/Poppins/Poppins-ExtraBoldItalic.ttf
+  artifactKey: Guid(86739f4e43e6b4f8aa6056f025095191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-ExtraBoldItalic.ttf using Guid(86739f4e43e6b4f8aa6056f025095191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde5cd81ebeb2f92c7b116b84bc75298') in 0.013857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Fonts/Poppins/Poppins-Medium.ttf
+  artifactKey: Guid(b4104f04dcc604ea3915c93275c30068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Poppins/Poppins-Medium.ttf using Guid(b4104f04dcc604ea3915c93275c30068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9211ebb564ec8749bb2fc5c86310c91b') in 0.014001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 605.581888 seconds.
+  path: Assets/TestQuiz
+  artifactKey: Guid(2e5eacafe2e074ef4be7bccee5e10bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestQuiz using Guid(2e5eacafe2e074ef4be7bccee5e10bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba784d23224c039358f8eb579312a69') in 0.002410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.246521 seconds.
+  path: Assets/TestQuiz/1
+  artifactKey: Guid(e4b1520b42bdd415a97ba86de3a62160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestQuiz/1 using Guid(e4b1520b42bdd415a97ba86de3a62160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593ece2114225a4bc862aa6b873bf3e4') in 0.001987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.104205 seconds.
+  path: Assets/TestQuiz/1/New Folder
+  artifactKey: Guid(12c9fc787cd20486bb472ba25d7ffe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestQuiz/1/New Folder using Guid(12c9fc787cd20486bb472ba25d7ffe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58be26cd51e4eb2c01f75e5b9b3ed4b8') in 0.002519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.261522 seconds.
+  path: Assets/TestQuiz/2
+  artifactKey: Guid(6651faac9b0844e15b9b27ac1770d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestQuiz/2 using Guid(6651faac9b0844e15b9b27ac1770d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605b0fd956befef22c1083f371e5c1b6') in 0.002078 seconds 
