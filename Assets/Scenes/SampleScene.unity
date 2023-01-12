@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 109403002}
   - component: {fileID: 109403001}
   - component: {fileID: 109403000}
+  - component: {fileID: 109403004}
   m_Layer: 5
   m_Name: AnswerChoice3
   m_TagString: Untagged
@@ -244,6 +245,103 @@ RectTransform:
   m_AnchoredPosition: {x: 0.112499714, y: -0.20000005}
   m_SizeDelta: {x: 578.7399, y: 316.1391}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &109403004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109402999}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c067ca88ed44072b4b6ff784935237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkboxData: {fileID: 11400000, guid: 06f4f291c05e6498798c54efcfcc7f15, type: 2}
+  button1: {fileID: 1566709604}
+  button2: {fileID: 2070865364}
+  button3: {fileID: 109403000}
+  mainText: {fileID: 1815033103}
+  debugText: {fileID: 0}
+--- !u!1 &211862383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211862384}
+  - component: {fileID: 211862386}
+  - component: {fileID: 211862385}
+  m_Layer: 5
+  m_Name: DebugText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &211862384
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211862383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 686230853}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 14}
+  m_SizeDelta: {x: 1482.32, y: 154.98}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &211862385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211862383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b4104f04dcc604ea3915c93275c30068, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &211862386
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211862383}
+  m_CullTransparentMesh: 1
 --- !u!1 &256413047
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +610,7 @@ RectTransform:
   m_Children:
   - {fileID: 2134909378}
   - {fileID: 1200643108}
+  - {fileID: 211862384}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -597,6 +696,7 @@ GameObject:
   - component: {fileID: 1200643108}
   - component: {fileID: 1200643109}
   - component: {fileID: 1200643110}
+  - component: {fileID: 1200643111}
   m_Layer: 0
   m_Name: Quiz
   m_TagString: Untagged
@@ -643,12 +743,37 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200643107}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7c067ca88ed44072b4b6ff784935237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   checkboxData: {fileID: 11400000, guid: 06f4f291c05e6498798c54efcfcc7f15, type: 2}
+  button1: {fileID: 1566709604}
+  button2: {fileID: 2070865364}
+  button3: {fileID: 109403000}
+  mainText: {fileID: 1815033103}
+  debugText: {fileID: 211862385}
+--- !u!114 &1200643111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200643107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3546db747d7f54cc9b03fca7d6eee614, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkboxData: {fileID: 11400000, guid: 06f4f291c05e6498798c54efcfcc7f15, type: 2}
+  button1: {fileID: 1566709604}
+  button2: {fileID: 2070865364}
+  button3: {fileID: 109403000}
+  mainText: {fileID: 1815033103}
+  debugText: {fileID: 211862385}
+  heartPrefab: {fileID: 5057831089141222846, guid: 702008bc2b43b47b7b70d0a15f50d21f, type: 3}
+  heart: 3
 --- !u!1 &1280090369
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +865,7 @@ GameObject:
   - component: {fileID: 1566709606}
   - component: {fileID: 1566709605}
   - component: {fileID: 1566709604}
+  - component: {fileID: 1566709607}
   m_Layer: 5
   m_Name: AnswerChoice1
   m_TagString: Untagged
@@ -849,6 +975,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566709602}
   m_CullTransparentMesh: 1
+--- !u!114 &1566709607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566709602}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c067ca88ed44072b4b6ff784935237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkboxData: {fileID: 11400000, guid: 06f4f291c05e6498798c54efcfcc7f15, type: 2}
+  button1: {fileID: 1566709604}
+  button2: {fileID: 2070865364}
+  button3: {fileID: 109403000}
+  mainText: {fileID: 1815033103}
+  debugText: {fileID: 0}
 --- !u!1 &1815033101
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,6 +1084,7 @@ GameObject:
   - component: {fileID: 2070865366}
   - component: {fileID: 2070865365}
   - component: {fileID: 2070865364}
+  - component: {fileID: 2070865367}
   m_Layer: 5
   m_Name: AnswerChoice2
   m_TagString: Untagged
@@ -1049,6 +1194,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070865362}
   m_CullTransparentMesh: 1
+--- !u!114 &2070865367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070865362}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c067ca88ed44072b4b6ff784935237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkboxData: {fileID: 11400000, guid: 06f4f291c05e6498798c54efcfcc7f15, type: 2}
+  button1: {fileID: 1566709604}
+  button2: {fileID: 2070865364}
+  button3: {fileID: 109403000}
+  mainText: {fileID: 1815033103}
+  debugText: {fileID: 0}
 --- !u!1 &2091749975
 GameObject:
   m_ObjectHideFlags: 0

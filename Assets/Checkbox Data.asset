@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6308ef327aed4e5bb9e564c8b6f84b3, type: 3}
   m_Name: Checkbox Data
   m_EditorClassIdentifier: 
-  checkboxStates: 0000000000000000
+  checkboxStates: 0101010101010101

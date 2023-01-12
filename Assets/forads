@@ -1,0 +1,45 @@
+using GoogleMobileAds.Api;
+using UnityEngine;
+
+public class QuizSceneHearts : MonoBehaviour
+{
+	private RewardedAd rewardedAd;
+	public void Start()
+	{
+		MobileAds.Initialize(initializationStatus =>
+		{
+		});
+		this.rewardedAd = new RewardedAd("ca-app-pub-3940256099942544/5224354917");
+		this.rewardedAd.OnUserEarnedReward += HandleUserEarnedReward;
+		this.rewardedAd.LoadAd(new AdRequest.Builder().Build());
+	}
+
+	public void HandleUserEarnedReward(object sender, Reward args)
+	{
+		heart++;
+		UpdateHearts();
+	}
+
+	public void ShowRewardedAd()
+	{
+		if (this.rewardedAd.IsLoaded())
+		{
+			var button = GameObject.Find("ButtonName");
+			button.GetComponent<Button>().interactable = true;
+			button.GetComponent<Button>().onClick.AddListener(() =>
+			{
+				this.rewardedAd.Show();
+			});
+		}
+		else
+		{
+			var button = GameObject.Find("ButtonName");
+			button.GetComponent<Button>().interactable = false;
+		}
+
+		this.rewardedAd.OnUserEarnedReward += (sender, args) =>
+		{
+			heart += 1;
+			UpdateHearts();
+			EncryptHeartCount();
+		};

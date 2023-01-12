@@ -9,8 +9,8 @@ public class Checkbox : MonoBehaviour
 
     public void CheckboxChanged(bool value)
     {
-        Debug.Log("Checkbox " + checkboxIndex + ": " + value);
-        Debug.Log("checkboxData: " + checkboxData.name);
+        // Debug.Log("Checkbox " + checkboxIndex + ": " + value);
+        // Debug.Log("checkboxData: " + checkboxData.name);
         checkboxData.checkboxStates[checkboxIndex] = value;
     }
 }
